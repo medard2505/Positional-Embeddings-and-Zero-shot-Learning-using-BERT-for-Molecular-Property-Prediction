@@ -50,6 +50,19 @@ We pre-train the model with 2 or 4 NVIDIA GeForce RTX 3090 GPUs.
 
 ### Fine-Tuning
 
+|Data|Relative_key_query|Sinusoidal|Relative_key| Absolute|
+|:---:|:---:|:---:|:---:|:---:|
+| Malaria <br> (F1) | **0.7439** | 0.6811 | 0.7254 | 0.6685|
+| COVID <br> (F1) | 0.7568 | 0.7805 | **0.8000** | 0.7733 |
+| COVID-19 <br> (F1)| 0.7718 | 0.7950 | 0.7819 | **0.8049** |
+| Cocrystals <br> (F1) | 0.5538 | **0.6713** | 0.6466 | 0.5538 |
+| BBBP <br> (F1)| 0.8555 | 0.8531 | **0.9061** | 0.8400|
+|Clintox <br> (F1)| **0.9617** | 0.9577 | 0.8800 | 0.9580|
+|Tox21 <br> (F1)| **0.9688** | 0.9680 | 0.9680 | 0.9672 |
+|ESOL <br> (RMSE)| 0.6185 | **0.5883** | 0.7878 | 0.5983|
+|FreeSolv <br> (RMSE)| **1.8858** | 2.0491 | 2.6242 | 2.4169|
+|Lipophilicity <br> (RMSE)| **0.5704**| 0.5732 | 0.5716 | 0.6025|
+
 ### Citation
 
 If you find this code or dataset useful for your research or applications, please consider citing it using the following BibTeX:
