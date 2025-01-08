@@ -8,6 +8,21 @@ pip install -r requirements.txt
 
 ### Pre-Training
 
+#### Model Configuration
+
+|Model|Hidden-Size|num_hidden_layers|num_attention_heads|hidden_act|max_sequence_length|vocab_size|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|BERT-base|768|12|12|GELU|512|592|
+
+#### Model Size
+
+|PEs|# of Params|
+|:---:|:---:|
+|Absolute|85,054,464|
+|Relative_Key|85,840,128|
+|Relative_Key_Query|85,840,128|
+|Sinusoidal|85,054,464|
+
 ### Fine-Tuning
 
 ### Citation
