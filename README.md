@@ -14,14 +14,14 @@ pip install -r requirements.txt
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |BERT-base|768|12|12|GELU|512|592|
 
-#### Model Size
+#### Model Training
 
-|PEs|# of Params|
-|:---:|:---:|
-|Absolute|85,054,464|
-|Relative_Key|85,840,128|
-|Relative_Key_Query|85,840,128|
-|Sinusoidal|85,054,464|
+|PEs|# of Params|Training Time (h)|Training Accuracy|
+|:---:|:---:|:---:|:---:|
+|Absolute|85,054,464|167 | 0.9568|
+|Relative_Key|85,840,128|180| 0.9746|
+|Relative_Key_Query|85,840,128|120| 0.9763|
+|Sinusoidal|85,054,464|105 |0.9755|
 
 ### Fine-Tuning
 
