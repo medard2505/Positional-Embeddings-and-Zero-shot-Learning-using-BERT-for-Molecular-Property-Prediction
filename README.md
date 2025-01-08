@@ -37,6 +37,12 @@ The dataset was sourced from publicly available databases and previous studies e
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |BERT-base|768|12|12|GELU|512|592|
 
+#### Pre-Training Recipe
+
+|Learning_rate|Batch_Size|Warm-up ratio|Weight decay|# of Epochs|Optimizer|Warm-up Schedular|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1e-4|16|0.016|0.01|5|AdamW|Linear
+
 #### Model Training
 
 We pre-train the model with 2 or 4 NVIDIA GeForce RTX 3090 GPUs.
@@ -49,6 +55,14 @@ We pre-train the model with 2 or 4 NVIDIA GeForce RTX 3090 GPUs.
 |Sinusoidal|85,054,464|105 |0.9755|
 
 ### Fine-Tuning
+
+#### Fine-Tuning Recipe
+
+|Learning_rate|Batch_Size|Warm-up ratio|Weight decay|# of Epochs|Optimizer|Warm-up Schedular|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|5e-6|16|0.1|0.01|10|AdamW|Linear
+
+#### Performance
 
 |Data|Relative_key_query|Sinusoidal|Relative_key| Absolute|
 |:---:|:---:|:---:|:---:|:---:|
