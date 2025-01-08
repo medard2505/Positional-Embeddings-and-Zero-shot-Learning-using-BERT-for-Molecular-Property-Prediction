@@ -16,4 +16,6 @@ To be added
 
 ### Acknowledgement
 
-Our implementation is built upon resources from [Huggingface Transformers](https://github.com/huggingface/transformers). We extend our gratitude to the original authors for open-sourcing their work.
+Our implementation is built upon resources from [Huggingface Transformers](https://github.com/huggingface/transformers).
+We also borrow the fine-tuning datasets from [MoleculeNet](https://moleculenet.org/).   
+We extend our gratitude to the original authors for open-sourcing their work.
