@@ -16,6 +16,8 @@ pip install -r requirements.txt
 
 #### Model Training
 
+We pre-train the model with 2 or 4 NVIDIA GeForce RTX 3090 GPUs.
+
 |PEs|# of Params|Training Time (h)|Training Accuracy|
 |:---:|:---:|:---:|:---:|
 |Absolute|85,054,464|167 | 0.9568|
