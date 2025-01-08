@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 #### Model Configuration
 
-|Model|Hidden-Size|num_hidden_layers|num_attention_heads|hidden_act|max_sequence_length|vocab_size|
+|Model|Hidden-Size|# of hidden_layers|# of attention_heads|hidden_act|max_sequence_length|vocab_size|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |BERT-base|768|12|12|GELU|512|592|
 
