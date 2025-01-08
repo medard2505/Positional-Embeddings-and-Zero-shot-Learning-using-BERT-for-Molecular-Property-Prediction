@@ -11,17 +11,17 @@ pip install -r requirements.txt
 |Usage|Data|Task type|# Compounds|
 |:---:|:---:|:---:|:---:|
 |Pre-Training|ZINC, PubChem, <br> ChEMBL, Research studies| - | 7,949,003|
-|Fine-Tuning|  ESOL |Regression| 1128|
+|Fine-Tuning|  ESOL |Regression| 1,128|
 |Fine-Tuning|  FreeSolv |Regression| 642|
-|Fine-Tuning|  Lipophilicity |Regression| 4200|
-|Fine-Tuning|  BBBP |Classification| 2039|
-|Fine-Tuning|  Tox21 |Classification| 7831|
-|Fine-Tuning|  ClinTox |Classification| 1478|
-|Fine-Tuning|  SIDER |Classification| 1427|
-|Fine-Tuning|  Antimalarial |Classification| 4794|
-|Fine-Tuning|  Cocrystals |Classification| 3282|
+|Fine-Tuning|  Lipophilicity |Regression| 4,200|
+|Fine-Tuning|  BBBP |Classification| 2,039|
+|Fine-Tuning|  Tox21 |Classification| 7,831|
+|Fine-Tuning|  ClinTox |Classification| 1,478|
+|Fine-Tuning|  SIDER |Classification| 1,427|
+|Fine-Tuning|  Antimalarial |Classification| 4,794|
+|Fine-Tuning|  Cocrystals |Classification| 3,282|
 |Fine-Tuning|  COVID |Classification| 740|
-|Fine-Tuning|  COVID-19 |Classification| 2601|
+|Fine-Tuning|  COVID-19 |Classification| 2,601|
 
 
 
