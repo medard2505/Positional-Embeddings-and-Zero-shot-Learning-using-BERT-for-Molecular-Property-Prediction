@@ -9,7 +9,8 @@ To install the dependencies, please run:
 pip install -r requirements.txt
 ```
 
-If you want to experiment using the Polaris benchmark (Polaris-hub), Python version 3.10 or higher is required to install Polaris-hub. Please check their [GitHub repository](https://github.com/polaris-hub/polaris) to install Polaris-hub.
+If you want to experiment using the Polaris benchmark (Polaris-hub), Python version 3.10 or higher is required to install Polaris-hub. Please check their [GitHub repository](https://github.com/polaris-hub/polaris) to install Polaris-hub.   
+Excluding the Polaris benchmark, it has been confirmed to work well with Python 3.8.
 
 ### Datasets
 The dataset was sourced from publicly available databases and previous studies except for newly proposed datasets(Antimalarial, Cocrystals, COVID, COVID-19)
