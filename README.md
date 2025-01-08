@@ -6,6 +6,25 @@ To install the dependencies, please run:
 pip install -r requirements.txt
 ```
 
+### Datasets
+
+|Usage|Data|Task type|# Compounds|
+|:---:|:---:|:---:|:---:|
+|Pre-Training|ZINC, PubChem, <br> ChEMBL, Research studies| - | 7,949,003|
+|Fine-Tuning|  ESOL |Regression| 1128|
+|Fine-Tuning|  FreeSolv |Regression| 642|
+|Fine-Tuning|  Lipophilicity |Regression| 4200|
+|Fine-Tuning|  BBBP |Classification| 2039|
+|Fine-Tuning|  Tox21 |Classification| 7831|
+|Fine-Tuning|  ClinTox |Classification| 1478|
+|Fine-Tuning|  SIDER |Classification| 1427|
+|Fine-Tuning|  Antimalarial |Classification| 4794|
+|Fine-Tuning|  Cocrystals |Classification| 3282|
+|Fine-Tuning|  COVID |Classification| 740|
+|Fine-Tuning|  COVID-19 |Classification| 2601|
+
+
+
 ### Pre-Training
 
 #### Model Configuration
