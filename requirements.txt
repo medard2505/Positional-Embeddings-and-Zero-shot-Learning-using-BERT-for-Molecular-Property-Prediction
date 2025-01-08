@@ -1,0 +1,4 @@
+transformers==4.46.3
+deepchem==2.8.0
+deepsmiles
+sentencepiece
