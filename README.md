@@ -10,6 +10,7 @@ pip install -r requirements.txt
 ```
 
 ### Datasets
+The dataset was sourced from publicly available databases and previous studies except for newly proposed datasets(Antimalarial, Cocrystals, COVID, COVID-19)
 
 |Usage|Data|Task type|# Compounds|
 |:---:|:---:|:---:|:---:|
