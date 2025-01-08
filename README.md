@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/b6dc1a35-736e-46a6-b7cd-68a860526a74" width="80%"></img>
 
 
-This is a Pytorch code and proposed datasets of our paper. The code has been tested on PyTorch 2.2.   
+This is a Pytorch code and proposed datasets of our paper. The code has been tested on PyTorch 2.2 and PyTorch 1.13.   
 To install the dependencies, please run:
 ```bash
 pip install -r requirements.txt
