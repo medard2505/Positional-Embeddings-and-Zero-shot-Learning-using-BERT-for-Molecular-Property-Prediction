@@ -1,6 +1,10 @@
 ## Positional Embeddings and Zero-shot Learning using BERT for Molecular-Property Prediction
 
-This is a Pytorch code and proposed datasets of our paper. The code has been tested on PyTorch 2.2.
+This is a Pytorch code and proposed datasets of our paper. The code has been tested on PyTorch 2.2.   
+To install the dependencies, please run:
+```bash
+pip install -r requirements.txt
+```
 
 ### Pre-Training
 
