@@ -85,7 +85,16 @@ We pre-train the model with 2 or 4 NVIDIA GeForce RTX 3090 GPUs.
 If you find this code or dataset useful for your research or applications, please consider citing it using the following BibTeX:
 
 ```
-To be added
+@article{mswahili2025positional,
+  title={Positional embeddings and zero-shot learning using BERT for molecular-property prediction},
+  author={Mswahili, Medard Edmund and Hwang, JunHa and Rajapakse, Jagath C and Jo, Kyuri and Jeong, Young-Seob},
+  journal={Journal of Cheminformatics},
+  volume={17},
+  number={1},
+  pages={17},
+  year={2025},
+  publisher={Springer}
+}
 ```
 
 ### Acknowledgement
